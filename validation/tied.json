@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "steps": 80,
+  "device": "cpu",
+  "dataset": "synthetic repeating integers 0..31",
+  "evaluation": "fixed training-distribution batch; no held-out quality claim",
+  "tied_embeddings": true,
+  "experts": 0,
+  "top_k": 2,
+  "parameters": 21664,
+  "initial_loss": 18.661609649658203,
+  "final_loss": 0.002393279690295458,
+  "seconds": 1.3314723000003141,
+  "torch_version": "2.11.0+cpu"
+}
