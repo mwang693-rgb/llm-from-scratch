@@ -36,7 +36,7 @@ uv run python -m cs336_basics.train \
   --output artifacts/moe
 ```
 
-Without `--data`, training uses a tiny synthetic repeating sequence to verify that optimization works. Supply a one-dimensional `.npy` token-ID array and `--vocab-size` for your own corpus. No training data or pretrained checkpoints are bundled.
+Without `--data`, training uses a tiny synthetic repeating sequence to verify that optimization works. Supply a one-dimensional `.npy` token-ID array and `--vocab-size` for your own corpus. The repository includes course test fixtures, including a reference model used by the tests, but no trained project checkpoint or full training corpus.
 
 ```python
 from cs336_basics.Transformer_lm import Transformer_lm
